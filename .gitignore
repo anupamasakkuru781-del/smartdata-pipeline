@@ -1,0 +1,52 @@
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated pipeline output
+data/output/*
+!data/output/.gitkeep
+
+data/quarantine/*
+!data/quarantine/.gitkeep
+
+# Generated logs
+logs/*
+!logs/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated Python package files
+build/
+dist/
+*.egg-info/
